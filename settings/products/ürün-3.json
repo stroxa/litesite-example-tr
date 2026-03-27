@@ -1,0 +1,21 @@
+{
+  "id": "u3",
+  "name": "Örnek Ürün 3",
+  "url": "ornek-urun-3",
+  "images": ["ornek-urun-3.jpg"],
+  "price": 95,
+  "weight": { "value": 200, "unit": "g" },
+  "category": { "name": "Ana Ürünler", "url": "ana-urunler" },
+  "shortDesc": "Ürün listesinde görünen kısa açıklama. 1-2 cümle olmalı, ürünün ne olduğunu ve öne çıkan özelliğini net biçimde anlatmalı.",
+  "metaDesc": "Google arama sonuçlarında görünen açıklama. shortDesc ile aynı veya benzer olabilir, maksimum 160 karakter olmalı.",
+  "keywords": "birinci-anahtar-kelime, ikinci-anahtar-kelime, ürün adı, kategori adı",
+  "longDesc": [
+    "Ürünün detay sayfasında gösterilen uzun açıklamanın birinci paragrafı. Her eleman ayrı bir paragraf olarak gösterilir.",
+    "İkinci paragraf. Ürünün içeriği, hazırlanışı veya kullanımı hakkında detay verilebilir.",
+    "Üçüncü paragraf. Dizi istediğiniz kadar uzatılabilir."
+  ],
+  "otherDesc": [
+    { "name": "Net Miktar", "value": "200 g", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "3", "bestRating": "5", "worstRating": "1" }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "i3",
+  "name": "Örnek İçecek 3",
+  "url": "ornek-icecek-3",
+  "images": ["ornek-icecek-3.jpg"],
+  "price": 20,
+  "weight": { "value": 250, "unit": "ml" },
+  "category": { "name": "İçecekler", "url": "icecekler" },
+  "shortDesc": "Ürün listesinde görünen kısa açıklama. 1-2 cümle olmalı, içeceğin ne olduğunu ve öne çıkan özelliğini net biçimde anlatmalı.",
+  "metaDesc": "Google arama sonuçlarında görünen açıklama. shortDesc ile aynı veya benzer olabilir, maksimum 160 karakter olmalı.",
+  "keywords": "birinci-anahtar-kelime, ikinci-anahtar-kelime, içecek adı, kategori adı",
+  "longDesc": [
+    "İçeceğin detay sayfasında gösterilen uzun açıklamanın birinci paragrafı. Her eleman ayrı bir paragraf olarak gösterilir.",
+    "İkinci paragraf. İçeceğin içeriği veya özellikleri hakkında detay verilebilir.",
+    "Üçüncü paragraf. Dizi istediğiniz kadar uzatılabilir."
+  ],
+  "otherDesc": [
+    { "name": "Net Miktar", "value": "250 ml", "type": "spec" }
+  ],
+  "aggregateRating": { "ratingValue": "5", "reviewCount": "3", "bestRating": "5", "worstRating": "1" }
+}

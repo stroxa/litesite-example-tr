@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{lang}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <meta name="keywords" content="{{keywords}}">
+    <link rel="canonical" href="{{canonical}}">
+    {{hreflang}}
+    {{preload_hint}}
+    {{css}}
+    <link rel="icon" href="/favicon.png" type="image/png"/>
+  </head>
+  <body>
+    <section class="off">{{offline_warning}}</section>
+    <header>
+      <a href="/" class="logo-link"><img src="{{logo_src}}" alt="{{slogan}}" title="{{slogan}}" /><span class="logo-brand">{{brand}}</span></a>
+      {{nav}}
+    </header>
+    <main>{{main}}</main>
+    <section id="basket"></section>
+    {{footer}}
+    <script src="/site.js" defer></script>{{extra_scripts}}
+  </body>
+</html>

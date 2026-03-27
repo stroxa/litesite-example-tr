@@ -1,0 +1,40 @@
+{
+  "title": "Hakkımızda | Örnek İşletme",
+  "description": "İşletmenizi tanıtan hakkımızda sayfasının SEO açıklaması buraya gelir. Kısaca ne yaptığınızı ve farkınızı anlatın.",
+  "keywords": "işletme adı hakkında, kategori, ürün veya hizmet türü, şehir",
+  "showOnHeaderMenu": true,
+  "priority": 0.7,
+  "partials": ["article-header", "page-image", "parts", "article-footer"],
+  "parts": [
+    {
+      "title": "Biz Kimiz",
+      "content": [
+        "Bu bölüme işletmenizin kuruluş hikayesini ve amacını yazın.",
+        "Müşterilerinize ne sunduğunuzu ve sizi diğerlerinden ayıran özellikleri kısaca aktarın."
+      ]
+    },
+    {
+      "title": "Felsefemiz",
+      "content": [
+        "İşletmenizin temel değerlerini ve çalışma prensiplerini buraya yazın.",
+        "Kalite, müşteri memnuniyeti veya üretim anlayışınızı paylaşın.",
+        "Uzun vadeli hedeflerinizi ve misyonunuzu bu paragrafta anlatabilirsiniz."
+      ]
+    },
+    {
+      "title": "Ürünlerimiz / Hizmetlerimiz",
+      "content": [
+        "Sunduğunuz ürün veya hizmet kategorilerini kısaca tanıtın.",
+        "Öne çıkan ürünlerinizi veya özel menü seçeneklerinizi burada vurgulayabilirsiniz."
+      ]
+    },
+    {
+      "title": "Sipariş",
+      "content": [
+        "Müşterilerinizin nasıl sipariş verebileceğini açıklayın.",
+        "Teslimat koşullarını ve bölgelerini burada belirtin.",
+        "İletişim ve destek için kullanılacak kanalı (WhatsApp, e-posta vb.) yazın."
+      ]
+    }
+  ]
+}

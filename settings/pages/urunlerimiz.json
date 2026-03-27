@@ -1,0 +1,31 @@
+{
+  "title": "Menümüz | Örnek İşletme",
+  "description": "Ürün veya hizmet listenizin SEO açıklaması buraya gelir. Hangi kategorilerin yer aldığını kısaca belirtin.",
+  "keywords": "işletme adı menü, kategori adı, ürün türleri, şehir",
+  "showOnHeaderMenu": true,
+  "priority": 0.7,
+  "partials": ["article-header", "page-image", "parts", "product-cards", "article-footer"],
+  "parts": [
+    {
+      "title": "Ana Ürünler",
+      "content": [
+        "Ana ürün kategorinizi tanıtan kısa bir açıklama buraya gelir.",
+        "Öne çıkan ürünleri veya hazırlanış yöntemini vurgulayabilirsiniz."
+      ]
+    },
+    {
+      "title": "İçecekler",
+      "content": [
+        "İçecek kategorinizi tanıtan kısa bir açıklama buraya gelir.",
+        "Sıcak, soğuk veya mevsimlik seçenekleriniz varsa burada belirtebilirsiniz."
+      ]
+    },
+    {
+      "title": "Sipariş Ver",
+      "content": [
+        "Müşterilerinizin nasıl sipariş verebileceğini açıklayın.",
+        "Teslimat koşullarını ve bölgelerini burada belirtin."
+      ]
+    }
+  ]
+}
