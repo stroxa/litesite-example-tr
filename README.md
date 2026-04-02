@@ -12,7 +12,7 @@ Not: Update.sh dosyası programın generate(oluşturucu) dosyasıdır. Updates.s
     3.1 - site.json ( kaynak dosya: settings/site.json )
     - Site içerisinde kullanılan genel bilgilerin tutulduğu dosyadır. İşletmenin alan adı, dil, ürün kategorileri (productSections), sepet ve kargo uyarı mesajları, header hero görseli ve metni, arayüzde görünen tüm Türkçe etiketler bu dosyada tutulmaktadır.
     - isCategoryCollapsable : Ürün listesinin görünüm biçimini belirler.
-        true  → Kategoriler tıklanarak açılıp kapanabilir bölümler (<details>) olarak gösterilir.
+        true  → Kategoriler tıklanarak açılıp kapanabilir bölümler (`<details>`) olarak gösterilir.
         false → Tüm ürünler kategorisiz, tek bir düz liste halinde gösterilir.
 
     3.2 - company.json ( kaynak dosya: settings/company.json )
